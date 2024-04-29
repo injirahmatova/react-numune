@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+.SectionTwo{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: 
+#37373F;
+min-height: 600px;
+}
+.SectionTwo .container{
+   
+    width: 90%;
+   margin: 40px 0;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.SectionTwo .container .left{
+   
+    width: 40%;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   }
+   .SectionTwo .container .left h1{
+    line-height: 60px;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+   }
+   .SectionTwo .container .left h1 span{
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(180, 156, 115);
+   }
+   .SectionTwo .container .left p{
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgb(178, 178, 184);
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    text-align: left;
+
+   }
+   .SectionTwo .container .left button{
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 17px;
+    color:white;
+    background-color: #B49C73;
+border-radius: 40px;
+width: 30%;
+padding: 10px;
+border: none;
+cursor: pointer;
+   }
+
+   .SectionTwo .container .right{
+   
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+   }
+   .SectionTwo .container .right .cards{
+    
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+
+   }
+   .SectionTwo .container .right .cards .icon {
+background-color:#5F5F65;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 15%;
+border-radius: 50%;
+padding: 20px;
+   }
+   .cards .text{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+
+   }
+   .cards .text h3{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color:  #AE9771;
+   }
+   .cards .text p{
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgb(178, 178, 184);
+    text-align: left;
+   }
+   .MPA{
+   
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 40%;
+padding: 10px;
+cursor: pointer;
+   }
+
+ .MPA p{
+font-size: 16px;
+font-weight: 400;
+color:#AE9771 ;
+transition: 1s;
+ }
+ .MPA p:hover{
+    color: white;
+    transition: 1s;
+
+ }
+ .MPA i{
+    color: white;
+    background-color: transparent;
+    padding: 3px;
+    transition: 1s;
+ }
+ .MPA i:hover{
+    background-color:#AE9771 ;
+    transition: 1s;
+ }
+ 
